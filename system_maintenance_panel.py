@@ -110,8 +110,17 @@ class SystemMaintenancePanel(QMainWindow):
         
         # Apply stylesheet
         self.setStyleSheet("""
+            QMainWindow, QLabel, QGroupBox, QPushButton, QMessageBox, QMessageBox QLabel {
+                color: #333333;
+            }
             QMainWindow {
                 background-color: #f0f0f0;
+            }
+            QMessageBox {
+                background-color: white;
+            }
+            QMessageBox QLabel {
+                color: #333333;
             }
             QGroupBox {
                 font-weight: bold;
