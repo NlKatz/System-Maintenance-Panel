@@ -393,6 +393,9 @@ class SystemMaintenancePanel(QMainWindow):
 
 
 def main():
+    # Create QApplication first
+    app = QApplication(sys.argv)
+    
     # Check for admin privileges
     if not is_admin():
         reply = QMessageBox.question(
@@ -406,7 +409,6 @@ def main():
             run_as_admin()
         # Continue anyway if user chooses No
     
-    app = QApplication(sys.argv)
     window = SystemMaintenancePanel()
     window.show()
     sys.exit(app.exec())
