@@ -7,8 +7,6 @@ A modern, user-friendly **Windows system maintenance panel** and **system admini
 ![Platform](https://img.shields.io/badge/Platform-Windows-lightgrey.svg)
 ![License](https://img.shields.io/badge/License-MIT-yellow.svg)
 
-**Keywords:** Windows system maintenance, Windows administration panel, system maintenance tool, Windows utility, PC maintenance, system administrator tool, Windows management GUI
-
 ## Features
 
 ### Software Updates
