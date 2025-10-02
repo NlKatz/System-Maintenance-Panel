@@ -1,10 +1,15 @@
-# System Maintenance Panel
+# System Maintenance Panel for Windows
 
-A modern, user-friendly GUI application for Windows system maintenance and administration tasks. Built with Python and PyQt6.
+A modern, user-friendly **Windows system maintenance panel** and **system administration tool** with a graphical user interface (GUI). This **Windows maintenance utility** helps you manage system updates, user accounts, network settings, and perform common administrative tasks easily. Built with Python and PyQt6.
+
+**Perfect for:** Windows 10, Windows 11 system administrators, IT professionals, and power users who need a centralized maintenance panel for Windows PC management.
 
 ![Python](https://img.shields.io/badge/Python-3.7+-blue.svg)
 ![PyQt6](https://img.shields.io/badge/PyQt6-6.6.0+-green.svg)
 ![Platform](https://img.shields.io/badge/Platform-Windows-lightgrey.svg)
+![License](https://img.shields.io/badge/License-MIT-yellow.svg)
+
+**Keywords:** Windows system maintenance, Windows administration panel, system maintenance tool, Windows utility, PC maintenance, system administrator tool, Windows management GUI
 
 ## Features
 
