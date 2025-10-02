@@ -45,14 +45,32 @@ A modern, user-friendly GUI application for Windows system maintenance and admin
    cd System-Maintenance-Panel
    ```
 
-2. **Install dependencies**
+2. **Run the application**
+   
+   Simply double-click `run.bat` - it will automatically:
+   - Check if Python is installed
+   - Install PyQt6 if not already installed
+   - Launch the System Maintenance Panel
+
+   **Or manually install dependencies:**
    ```powershell
    pip install -r requirements.txt
    ```
 
 ## Usage
 
-### Running the Application
+### Quick Start (Recommended)
+
+Simply **double-click `run.bat`** and the application will launch automatically!
+
+The batch file will handle everything for you:
+- ✅ Checks for Python installation
+- ✅ Installs dependencies if needed
+- ✅ Launches the application
+
+### Manual Launch
+
+If you prefer to run it manually:
 
 ```powershell
 python system_maintenance_panel.py
