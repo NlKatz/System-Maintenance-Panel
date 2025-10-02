@@ -119,14 +119,20 @@ class SystemMaintenancePanel(QMainWindow):
                 border-radius: 5px;
                 margin-top: 10px;
                 padding-top: 10px;
+                color: #000000;
             }
             QGroupBox::title {
                 subcontrol-origin: margin;
                 left: 10px;
                 padding: 0 5px 0 5px;
+                color: #000000;
+            }
+            QLabel {
+                color: #000000;
             }
             QPushButton {
                 background-color: white;
+                color: #000000;
                 border: 1px solid #cccccc;
                 border-radius: 3px;
                 padding: 8px;
@@ -134,10 +140,12 @@ class SystemMaintenancePanel(QMainWindow):
             }
             QPushButton:hover {
                 background-color: #e6e6e6;
+                color: #000000;
                 border: 1px solid #999999;
             }
             QPushButton:pressed {
                 background-color: #d9d9d9;
+                color: #000000;
             }
         """)
     
