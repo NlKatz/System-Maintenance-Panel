@@ -49,11 +49,13 @@ if errorlevel 1 (
 
 echo Starting System Maintenance Panel...
 echo.
-%PYTHON_CMD% system_maintenance_panel.py
 
-REM Pause if there was an error
-if errorlevel 1 (
-    echo.
-    echo ERROR: Failed to launch System Maintenance Panel
-    pause
+REM Use pythonw to run without console window
+if "%PYTHON_CMD%"=="python" (
+    start "" pythonw system_maintenance_panel.py
+) else (
+    start "" pyw system_maintenance_panel.py
 )
+
+REM Close this batch window
+exit
