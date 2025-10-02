@@ -41,7 +41,7 @@ A modern, user-friendly GUI application for Windows system maintenance and admin
 
 1. **Clone or download this repository**
    ```powershell
-   git clone <repository-url>
+   git clone [<repository-url>](https://github.com/Katyusha47/System-Maintenance-Panel.git)
    cd smthidk
    ```
 
